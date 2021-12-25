@@ -1,0 +1,84 @@
+.featuredMovie{
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.vertical{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.horizontal{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 30%, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.name{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.info{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.info span{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.points{
+  color: #46d369;
+}
+
+.description{
+  margin-top: 15px;
+  font-size: 20px;
+  color: #999;
+  max-width: 40%;
+}
+
+.buttons{
+  margin-top: 15px;
+}
+
+.buttons a{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.buttons a:hover{
+  transition: all ease 200ms;
+  opacity: 0.7;
+}
+
+.buttons a:nth-child(1){
+  background-color: white;
+  color: black;
+}
+
+.buttons a:nth-child(2){
+  background-color: #333;
+  color: white;
+}
+
+.genders{
+  margin-top: 15px;
+  font-size: 18px;
+  color: #999;
+}
